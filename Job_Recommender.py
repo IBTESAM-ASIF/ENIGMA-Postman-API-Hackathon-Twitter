@@ -6,6 +6,9 @@ import tweepy
 import re
 import string
 import nltk
+import sys
+import os
+from pathlib import Path
 from unidecode import unidecode
 import csv
 import pandas as pd
@@ -1064,7 +1067,7 @@ window.tk.call('source', resource_path(resource_path('Resource_Images/forest-dar
 # Set the theme with the theme_use method
 ttk.Style().theme_use('forest-dark')
 
-window.title("ENIGMA")
+window.title("FYP- TWITTER PERSONALITY ANALYSIS")
 mywin = MyWindow(window)
 window.geometry("400x300")
 window.iconphoto(True, tk.PhotoImage(file=resource_path('Resource_Images/icon.png')))
